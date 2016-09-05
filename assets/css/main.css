@@ -1,0 +1,82 @@
+html, body {
+  overflow-x: hidden;
+}
+
+
+/*nav*/
+.alternate-color {
+  background-color: #BADA55;
+  height: 25px;
+  box-shadow: 0 1px 1px 2px #f3f3f3;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 1px 1px 2px #f3f3f3;
+}
+
+.nav-links a {
+  font: normal normal normal 20px/1.4em proxima-n-w01-reg,sans-serif;
+  color: #414141;
+  padding: 15px 40px;
+}
+/*nav~*/
+
+/*banner*/
+.banner {
+  min-height: 800px;
+  padding-top: 65px;
+  background-image: url('../../tools/images/504882014.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.catch-phrase {
+  width: 875px;
+  margin: 0 auto;
+  padding: 15px 0;
+  letter-spacing: 0.1em;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #414141;
+  box-shadow: 0 2px 2px 3px #777;
+  text-align: center;
+}
+
+.catch-phrase span {
+  font-size: 39px;
+}
+
+.catch-phrase .under-hook {
+  font-size: 28px;
+}
+
+
+.button-icon-bar {
+  background-color: rgba(65, 65, 65, 0.92);
+  width: 1150;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-icon {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.button-icon-container h1 {
+  font-size: 26px;
+  font-weight: 100;
+  padding: 10px 0;
+  color: #7FCCF7;
+  font-stretch: ultra-condensed;
+  letter-spacing: 0.1em;
+}
+
+/*banner~*/
